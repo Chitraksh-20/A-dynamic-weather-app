@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('./360_F_497809944_FMo3DO6j7XSlb9rZKOlnqaaWoJhuZXBm.jpg'); /* Replace 'background-image.jpg' with the path to your image file */
+    background-size: cover; /* Ensures the background image covers the entire body */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    color: #fff; /* Sets the text color to white for better visibility on the background */
+}
+.City{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+}
+input::placeholder {
+    color: #999; /* Placeholder text color */
+    /* font-size: 20px; */
+}
+input{
+    padding: 10px;
+    font-size: 16px;
+}
+.submit{
+    margin-top: 25px;
+    padding: 10px;
+    text-align: center;
+}
